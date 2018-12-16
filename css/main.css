@@ -1,0 +1,307 @@
+/* main section */
+#main {
+background-color: #fff;
+padding:20px 0;
+}
+#maindet {
+background-color: #f0f8ff;
+padding:20px 0;
+}
+#content {
+overflow: hidden;
+padding: 5px 10px;
+}
+#content #left, #content #right {
+border: 1px solid #E9E9E9;
+float: left;
+margin: 0 2%;
+width: 68%;
+}
+#content #right {
+margin-left: 0;
+width: 25%;
+}
+#content h3 {
+background: -moz-linear-gradient(#ffffff, #F6F6F6); /* FF 3.6+ */  
+background: -ms-linear-gradient(#ffffff, #F6F6F6); /* IE10 */  
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #F6F6F6)); /* Safari 4+, Chrome 2+ */  
+background: -webkit-linear-gradient(#ffffff, #F6F6F6); /* Safari 5.1+, Chrome 10+ */  
+background: -o-linear-gradient(#ffffff, #F6F6F6); /* Opera 11.10 */  
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#F6F6F6'); /* IE6 & IE7 */  
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#F6F6F6')"; /* IE8+ */  
+background: linear-gradient(#ffffff, #F6F6F6); /* the standard */ 
+border-bottom: 1px solid #E0E0E0;
+color: #3C3C3C;
+font-size: 12px;
+font-weight: bold;
+line-height: 15px;
+padding: 11px 0 12px 20px;
+text-transform: uppercase;
+}
+#content ul {
+list-style:none outside none;
+margin:0;
+padding:0;
+}
+#content #left ul li {
+float:left;
+padding-bottom: 21px;
+width: 33%;
+}
+#content #left ul li:hover {
+background-color: #fbfbfb;
+}
+#content #right ul li {
+border-top: 1px solid #E7E7E7;
+overflow: hidden;
+}
+#content #right ul li:hover {
+background-color: #fbfbfb;
+}
+#content #right ul li:first-child {
+border-width: none;
+}
+#content #left ul li .img {
+text-align: center;
+}
+#content #right ul li .img {
+background-color: #FFFFFF;
+float: left;
+height: 94px;
+text-align: center;
+width: 113px;
+}
+#content #left ul li .img img {
+height:128px;
+width:128px;
+}
+#content #right ul li .img img {
+height:70px;
+margin-top: 11px;
+width:70px;
+}
+#content #left ul li .info {
+padding: 17px 20px 0 19px;
+}
+#content #right ul li .info {
+float: left;
+overflow: hidden;
+padding: 17px 0 0 21px;
+width: 164px;
+}
+#content ul li .info .title {
+color: #4B4B4B;
+display: inline-block;
+font-size: 11px;
+font-weight: bold;
+line-height: 16px;
+text-decoration: none;
+text-transform: uppercase;
+width: 150px;
+}
+#content ul li .info .title:hover {
+color: #049733;
+}
+#content #left ul li .info p {
+color: #7F7F7F;
+font-size: 11px;
+line-height: 16px;
+padding-top: 3px;
+}
+#content #left ul li .info .price {
+background: none repeat scroll 0 0 #F7F7F7;
+color: #383838;
+font-size: 12px;
+font-weight: bold;
+line-height: 16px;
+margin: 17px 0 10px;
+padding: 6px 0 6px 8px;
+}
+#content #right ul li .info .price {
+color: #383838;
+font-size: 12px;
+font-weight: bold;
+line-height: 16px;
+padding-top: 25px;
+}
+#content #left ul li .info .price .st {
+color: #7F7F7F;
+font-size: 11px;
+line-height: 16px;
+margin-right: 3px;
+}
+#content #right ul li .info .price .usual, #content #right ul li .info .price .special {
+color: #7F7F7F;
+font-size: 12px;
+font-weight: normal;
+line-height: 16px;
+padding-right: 6px;
+text-decoration: line-through;
+}
+#content #right ul li .info .price .special {
+color: #FD7A01;
+font-weight: bold;
+text-decoration: none;
+}
+#content #left ul li .info .actions {
+overflow:hidden;
+}
+#content #left ul li .info .actions a {
+border: 1px solid #E0E0E0;
+color: #fd7a01;
+display: block;
+float:right;
+font-size: 11px;
+font-weight: bold;
+line-height: 16px;
+padding: 5px;
+text-decoration: none;
+}
+
+#content #left ul li .info .actions a:first-child {
+color: #009832;
+float:left;
+}
+/*.control-group {
+	display: inline-block;
+	width: 200px;
+	height: 210px;
+	margin: 10px;
+	padding: 30px;
+	text-align: left;
+	vertical-align: top;
+	background: #fff;
+	box-shadow: 0 1px 2px rgba(0,0,0,.1);
+}*/
+.filter h4{
+	padding-left: 20px;
+	padding-top:20px;
+	padding-bottom:10px;
+}
+
+.control {
+	font-size: 13px;
+	position: relative;
+	display: block;
+	margin-bottom: 15px;
+	padding-left: 70px;
+	cursor: pointer;
+}
+
+.control input {
+	position: absolute;
+	z-index: -1;
+	opacity: 0;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    width:200px;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 20px;
+    cursor: pointer;
+}
+
+.control__indicator {
+	position: absolute;
+	top: 2px;
+	left: 50px;
+	width: 10px;
+	height: 10px;
+	background: #e6e6e6;
+}
+
+.control--radio .control__indicator {
+	border-radius: 50%;
+}
+
+/* Hover and focus states */
+.control:hover input ~ .control__indicator,
+.control input:focus ~ .control__indicator {
+	background: #ccc;
+}
+
+/* Checked state */
+.control input:checked ~ .control__indicator {
+	background: #2aa1c0;
+}
+
+/* Hover state whilst checked */
+.control:hover input:not([disabled]):checked ~ .control__indicator,
+.control input:checked:focus ~ .control__indicator {
+	background: #0e647d;
+}
+
+/* Disabled state */
+.control input:disabled ~ .control__indicator {
+	pointer-events: none;
+	opacity: .6;
+	background: #e6e6e6;
+}
+
+/* Check mark */
+.control__indicator:after {
+	position: absolute;
+	display: none;
+	content: '';
+}
+
+/* Show check mark */
+.control input:checked ~ .control__indicator:after {
+	display: block;
+}
+
+/* Checkbox tick */
+.control--checkbox .control__indicator:after {
+	top: 4px;
+	left: 8px;
+	width: 3px;
+	height: 8px;
+	transform: rotate(45deg);
+	border: solid #fff;
+	border-width: 0 2px 2px 0;
+}
+
+/* Disabled tick colour */
+.control--checkbox input:disabled ~ .control__indicator:after {
+	border-color: #7b7b7b;
+}
+
+/* Radio button inner circle */
+.control--radio .control__indicator:after {
+	top: 7px;
+	left: 7px;
+	width: 6px;
+	height: 6px;
+	border-radius: 50%;
+	background: #fff;
+}
+
+/* Disabled circle colour */
+.control--radio input:disabled ~ .control__indicator:after {
+	background: #7b7b7b;
+}
+#cancel{
+	background-color:red;
+}
+#shopping{
+	background-color:blue;
+}
+#orderimg{
+  text-align:center;
+}
+
+#frank{
+    height:60px;
+    color:green;
+}
+#cartplace{
+    height:50px;
+    padding:30px 20px 0px 10px;
+}
